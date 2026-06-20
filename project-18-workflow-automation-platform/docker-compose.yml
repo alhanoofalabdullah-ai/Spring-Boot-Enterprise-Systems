@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+
+  mysql:
+    image: mysql:8
+
+  camunda:
+    image: camunda/camunda-bpm-platform
+
+  workflow-app:
+    image: openjdk:21
